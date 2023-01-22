@@ -13,7 +13,7 @@ use Date::Calc;
 sub base_url
 {
 	my( $session ) = @_;
-	
+
 	return $session->config( 'perl_url' ).'/stats/report';
 }
 
