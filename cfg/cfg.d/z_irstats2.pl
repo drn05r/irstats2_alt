@@ -27,10 +27,6 @@ $c->{irstats2}->{cache_paths} = [
 
 $c->{plugins}{"Stats::Processor::Access::DocDownloads"}{params}{disable} = undef;
 
-$c->{plugin_alias_map}->{"MePrints::Widget::IRS2TopFive"} = undef;
-$c->{plugin_alias_map}->{"MePrints::Widget::IRS2DownloadsGraph"} = undef;
-
-
 # The following utility routines can be used for inserting the charts into a summary page, eg
 #
 # my $util = $repository->get_conf( "irstats2", "util" );
